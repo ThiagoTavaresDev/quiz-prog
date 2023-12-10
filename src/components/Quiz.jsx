@@ -21,7 +21,7 @@ export const Quiz = () => {
     <>
       {currentQuestion <= questions.length ? (
         <>
-          <main className="my-12 mx-auto max-w-[600px] min-w-[400px] rounded-sm p-6 shadow-2xl border-[2px] border-blue-300">
+          <main className="my-12 mx-auto max-w-[600px] min-w-[400px] rounded-sm p-6 shadow-2xl border-[2px] border-blue-300 ">
             <div className="flex justify-evenly text-blue-300 font-bold ">
               <h1 className="text-3xl">
                 Questão
